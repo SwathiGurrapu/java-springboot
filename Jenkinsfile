@@ -32,6 +32,7 @@ pipeline {
             }
         }  
     }
+    
     post { 
         Success { 
             echo 'success!'
