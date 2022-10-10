@@ -37,7 +37,7 @@ pipeline {
         success { 
             echo 'success!'
         }
-         failure { 
+        failure { 
             echo 'Failed!'
         }
          always { 
