@@ -32,12 +32,12 @@ pipeline {
             }
         }  
     }
-    
+
     post { 
-        Success { 
+        success { 
             echo 'success!'
         }
-         Failure { 
+         failure { 
             echo 'Failed!'
         }
          always { 
